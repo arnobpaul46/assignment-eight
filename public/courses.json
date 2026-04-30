@@ -3,30 +3,30 @@
     "id": 1,
     "title": "Data Science Fundamentals",
     "instructor": "Dr. Anika Rahman",
-    "instructor_img": "https://static.vecteezy.com/system/resources/previews/048/002/356/small_2x/confident-bangladeshi-businesswoman-in-professional-attire-suitable-for-corporate-use-marketing-and-diverse-workplace-representation-photo.jpg",
+    "instructor_img": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTAxL3Jhd3BpeGVsX29mZmljZV8zM19waG90b19yZWFsX2luZGlhbl9idXNpbmVzc193b21hbl90aGVfaW1hZ2VfaV85Y2E0ZTUwYy02Yzg4LTQwNTYtODg5Mi1kYTk0MDY2YTc4NDRfMS5wbmc.png",
     "rating": 4.9,
     "price": 99,
-    "image": "https://img.freepik.com/free-vector/data-science-concept-illustration_114360-5203.jpg",
+    "image": "https://static.vecteezy.com/system/resources/previews/004/946/780/non_2x/data-analysis-concept-isometric-landing-page-team-analyze-financial-statistics-analyze-data-charts-and-analytics-graph-3d-web-banner-template-illustration-with-people-scene-in-flat-design-vector.jpg",
     "category": "Data Science"
   },
   {
     "id": 2,
     "title": "Full-Stack Web Development",
     "instructor": "Rahul Verma",
-    "instructor_img": "https://static.vecteezy.com/system/resources/previews/045/784/998/non_2x/pakistani-male-developer-at-work-photo.jpg",
+    "instructor_img": "https://thumbs.dreamstime.com/b/portrait-young-happy-indian-business-man-executive-looking-camera-portrait-young-happy-indian-business-man-executive-214230764.jpg",
     "rating": 4.8,
     "price": 129,
-    "image": "https://img.freepik.com/free-vector/full-stack-developer-concept-illustration_114360-1590.jpg",
+    "image": "https://static.vecteezy.com/system/resources/previews/004/946/732/non_2x/web-development-concept-isometric-landing-page-team-develops-and-optimizes-layout-of-site-works-with-code-of-webpage-3d-web-banner-template-illustration-with-people-scene-in-flat-design-vector.jpg",
     "category": "Development"
   },
   {
     "id": 3,
     "title": "Digital Marketing Strategy",
     "instructor": "Priya Das",
-    "instructor_img": "https://thumbs.dreamstime.com/b/young-indian-professional-business-woman-looking-camera-office-women-confident-businesswoman-coach-female-corporate-140989099.jpg",
+    "instructor_img": "https://img.freepik.com/free-photo/closeup-content-attractive-indian-business-lady_1262-2094.jpg",
     "rating": 4.7,
     "price": 89,
-    "image": "https://img.freepik.com/free-vector/digital-marketing-concept-illustration_114360-527.jpg",
+    "image": "https://static.vecteezy.com/system/resources/previews/041/928/046/non_2x/digital-marketing-concept-in-3d-isometric-graphic-design-creative-agency-office-advertising-or-promotion-in-social-networks-illustration-with-people-in-isometric-room-interior-for-web-banner-vector.jpg",
     "category": "Marketing"
   },
   {
@@ -36,7 +36,7 @@
     "instructor_img": "https://static.vecteezy.com/system/resources/previews/048/766/189/large_2x/confident-bangladeshi-male-school-teacher-posing-in-classroom-education-diversity-teaching-concept-photo.jpg",
     "rating": 4.6,
     "price": 79,
-    "image": "https://img.freepik.com/free-vector/ui-ux-design-concept-illustration_114360-3135.jpg",
+    "image": "https://img.freepik.com/free-vector/gradient-ui-ux-landing-page-template_23-2149050184.jpg?semt=ais_hybrid&w=740&q=80",
     "category": "Design"
   },
   {
@@ -46,67 +46,67 @@
     "instructor_img": "https://static.vecteezy.com/system/resources/previews/048/766/250/large_2x/confident-young-male-bangladeshi-school-teacher-smiling-in-classroom-education-diversity-professionalism-photo.jpg",
     "rating": 4.8,
     "price": 69,
-    "image": "https://img.freepik.com/free-vector/python-programming-concept-illustration_114360-1422.jpg",
+    "image": "https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png",
     "category": "Development"
   },
   {
     "id": 6,
     "title": "Machine Learning with Python",
     "instructor": "Dr. Ritu Sharma",
-    "instructor_img": "https://static.vecteezy.com/system/resources/previews/062/290/059/non_2x/beautiful-indian-woman-programmer-web-developer-focused-and-confident-working-on-laptop-writing-code-programming-business-woman-worker-in-modern-office-working-in-casual-clothes-photo.jpg",
+    "instructor_img": "https://www.shutterstock.com/image-photo/portrait-young-confident-indian-business-260nw-2180289285.jpg",
     "rating": 4.9,
     "price": 119,
-    "image": "https://img.freepik.com/free-vector/machine-learning-concept-illustration_114360-5166.jpg",
+    "image": "https://png.pngtree.com/png-vector/20250110/ourlarge/pngtree-3d-machine-learning-render-illustration-png-image_15138171.png",
     "category": "Data Science"
   },
   {
     "id": 7,
     "title": "Social Media Marketing",
     "instructor": "Nadia Islam",
-    "instructor_img": "https://img.freepik.com/premium-photo/warm-smiling-bangladeshi-female-school-teacher-classroom-setting-educational-cultural-representation_91645-13259.jpg",
+    "instructor_img": "https://media.gettyimages.com/id/923274708/photo/mid-adult-woman-headshot.jpg?s=612x612&w=gi&k=20&c=9X6DJe0R2NZlzSTH9ZaL8wmvKvgzUcGL4RoCcxLDxaM=",
     "rating": 4.5,
     "price": 59,
-    "image": "https://img.freepik.com/free-vector/social-media-marketing-concept-illustration_114360-1438.jpg",
+    "image": "https://static.vecteezy.com/system/resources/previews/015/881/148/non_2x/isometric-flat-3d-illustration-social-media-digital-marketing-startup-business-concept-vector.jpg",
     "category": "Marketing"
   },
   {
     "id": 8,
     "title": "Graphic Design Essentials",
     "instructor": "Kabir Khan",
-    "instructor_img": "https://www.shutterstock.com/image-photo/smiling-young-professional-standing-arms-260nw-2511773757.jpg",
+    "instructor_img": "https://t4.ftcdn.net/jpg/04/32/89/63/360_F_432896398_99o08tTgBYj8YP2eatvF4zaJu3AdF40E.jpg",
     "rating": 4.7,
     "price": 79,
-    "image": "https://img.freepik.com/free-vector/graphic-designer-concept-illustration_114360-4745.jpg",
+    "image": "https://static.vecteezy.com/system/resources/previews/041/931/582/non_2x/designer-studio-concept-3d-isometric-web-scene-with-infographic-people-work-at-different-creativity-rooms-meeting-and-brainstorming-at-agency-office-illustration-in-isometry-graphic-design-vector.jpg",
     "category": "Design"
   },
   {
     "id": 9,
     "title": "React & Next.js Bootcamp",
     "instructor": "Suman Chakraborty",
-    "instructor_img": "https://www.shutterstock.com/image-photo/professional-business-man-company-employee-260nw-2395784457.jpg",
+    "instructor_img": "https://t4.ftcdn.net/jpg/04/64/87/43/360_F_464874339_Rc7McGaz327ljzgnWgke4crdDAdI2Yu2.jpg",
     "rating": 4.8,
     "price": 139,
-    "image": "https://img.freepik.com/free-vector/react-concept-illustration_114360-1325.jpg",
+    "image": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbvxhs4ubnqtdk4jdy5ka.png",
     "category": "Development"
   },
   {
     "id": 10,
     "title": "Business Analytics with Excel",
     "instructor": "Fariha Akter",
-    "instructor_img": "https://www.executivewomanmedia.com/wp-content/uploads/2023/10/46.CeoWoman_Slider.jpg",
+    "instructor_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Portrait_of_a_Bangladeshi_woman.jpg/960px-Portrait_of_a_Bangladeshi_woman.jpg",
     "rating": 4.6,
     "price": 49,
-    "image": "https://img.freepik.com/free-vector/business-analytics-concept-illustration_114360-1393.jpg",
+    "image": "https://img.freepik.com/premium-vector/business-analyst-data-excel-isometric-flat-3d-illustration-concept_18660-4770.jpg",
     "category": "Business"
   },
   {
     "id": 11,
     "title": "SEO & Content Marketing",
     "instructor": "Imran Hossain",
-    "instructor_img": "https://asrafuddin.com/wp-content/uploads/2024/11/Top-Digital-Marketing-Expert-in-Bangladesh.jpg",
+    "instructor_img": "https://static.vecteezy.com/system/resources/thumbnails/048/002/358/small/young-bangladeshi-businessman-standing-confidently-in-formal-suit-for-corporate-presentation-or-professional-profile-photo.jpg",
     "rating": 4.7,
     "price": 69,
-    "image": "https://img.freepik.com/free-vector/seo-concept-illustration_114360-5766.jpg",
+    "image": "https://img.freepik.com/premium-vector/modern-3d-isometric-illustration-seo_145666-2127.jpg",
     "category": "Marketing"
   },
   {
@@ -116,7 +116,7 @@
     "instructor_img": "https://thumbs.dreamstime.com/b/portrait-young-indian-male-teacher-headset-sitting-office-front-camera-teaching-talking-online-290833072.jpg",
     "rating": 4.8,
     "price": 149,
-    "image": "https://img.freepik.com/free-vector/mobile-app-development-concept-illustration_114360-1355.jpg",
+    "image": "https://img.freepik.com/free-vector/mobile-app-development-isometric-background-with-composition-smartphone-screens-with-3d-app-icons-connections-vector-illustration_1284-77301.jpg",
     "category": "Development"
   },
   {
@@ -126,27 +126,27 @@
     "instructor_img": "https://static.vecteezy.com/system/resources/previews/048/766/189/large_2x/confident-bangladeshi-male-school-teacher-posing-in-classroom-education-diversity-teaching-concept-photo.jpg",
     "rating": 4.9,
     "price": 159,
-    "image": "https://img.freepik.com/free-vector/cloud-computing-concept-illustration_114360-1273.jpg",
+    "image": "https://static.vecteezy.com/system/resources/previews/004/973/358/non_2x/3d-isometric-illustration-network-with-computer-laptop-tablet-and-smartphone-cloud-storage-3d-isometric-technology-concept-isometric-cloud-technology-with-cloud-modern-cloud-technologies-vector.jpg",
     "category": "Development"
   },
   {
     "id": 14,
     "title": "Financial Analysis & Modeling",
     "instructor": "Rina Saha",
-    "instructor_img": "https://static.vecteezy.com/system/resources/previews/045/785/130/non_2x/indian-female-software-developer-at-work-photo.jpg",
+    "instructor_img": "https://img.freepik.com/free-photo/closeup-content-attractive-indian-business-lady_1262-2094.jpg",
     "rating": 4.7,
     "price": 109,
-    "image": "https://img.freepik.com/free-vector/financial-analysis-concept-illustration_114360-1389.jpg",
+    "image": "https://c8.alamy.com/comp/2B12991/isometric-finance-data-analysis-market-position-concept-web-business-computer-diagram-3d-vector-illustration-2B12991.jpg",
     "category": "Business"
   },
   {
     "id": 15,
     "title": "Photography & Video Editing",
     "instructor": "Ayan Banerjee",
-    "instructor_img": "https://static.vecteezy.com/system/resources/thumbnails/045/783/662/small/confident-business-professional-in-suit-standing-by-office-window-emphasizing-diversity-and-modern-workplace-photo.jpg",
+    "instructor_img": "https://thumbs.dreamstime.com/b/portrait-young-happy-indian-business-man-executive-looking-camera-portrait-young-happy-indian-business-man-executive-214230764.jpg",
     "rating": 4.6,
     "price": 89,
-    "image": "https://img.freepik.com/free-vector/photography-concept-illustration_114360-1103.jpg",
+    "image": "https://img.freepik.com/free-vector/people-using-equipment-taking-photos-making-videos-keeping-blog-isometric-composition-3d-illustration_1284-60402.jpg?semt=ais_hybrid&w=740&q=80",
     "category": "Design"
   }
 ]
