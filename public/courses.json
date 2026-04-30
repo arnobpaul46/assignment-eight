@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Data Science Fundamentals",
+    "instructor": "Dr. Anya Sharma",
+    "instructor_img": "https://i.pravatar.cc/150?u=anya",
+    "rating": 4.9,
+    "price": 99,
+    "image": "https://img.freepik.com/free-vector/data-science-concept-illustration_114360-5203.jpg",
+    "category": "Data Science"
+  },
+  {
+    "id": 2,
+    "title": "Full-Stack Web Development",
+    "instructor": "Mark Chen",
+    "instructor_img": "https://i.pravatar.cc/150?u=mark",
+    "rating": 4.8,
+    "price": 129,
+    "image": "https://img.freepik.com/free-vector/full-stack-developer-concept-illustration_114360-1590.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing Strategy",
+    "instructor": "Sarah Lee",
+    "instructor_img": "https://i.pravatar.cc/150?u=sarah",
+    "rating": 4.7,
+    "price": 89,
+    "image": "https://img.freepik.com/free-vector/digital-marketing-concept-illustration_114360-527.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design Masterclass",
+    "instructor": "Alex Rivera",
+    "instructor_img": "https://i.pravatar.cc/150?u=alex",
+    "rating": 4.6,
+    "price": 79,
+    "image": "https://img.freepik.com/free-vector/ui-ux-design-concept-illustration_114360-3135.jpg",
+    "category": "Design"
+  }
+]

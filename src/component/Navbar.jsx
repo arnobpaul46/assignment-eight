@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "All Course", href: "/courses" },
+    { name: "All Courses", href: "/all-courses" },
     { name: "My Profile", href: "/profile" },
   ];
 
@@ -63,7 +63,7 @@ const Navbar = () => {
         <div className="navbar-end gap-2 md:gap-4">
           <Link 
             href="/login" 
-            className="text-gray-300  hover:text-blue-300 text-lg font-bold transition-colors hidden sm:block"
+            className="text-gray-300   hover:text-blue-300 text-lg font-bold transition-colors hidden sm:block"
           >
             Login
           </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
         
         {isOpen && (
           <div className="absolute top-20 left-0 w-full p-4 lg:hidden animate-in fade-in zoom-in duration-300">
-            <div className="bg-black/80 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-2xl flex flex-col gap-6">
+            <div className="bg-gray-900  border border-white/10 rounded-2xl p-6 shadow-2xl flex flex-col gap-6">
               <ul className="flex flex-col gap-4">
                 {navLinks.map((link) => {
                   const isActive = pathname === link.href;
