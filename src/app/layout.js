@@ -1,8 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import 'remixicon/fonts/remixicon.css' 
 import "./globals.css";
 import AppNavbar from "@/component/Navbar";
-import Hero from "@/component/Hero";
-import PopularCourses from "@/component/PopularCourse";
+
+import Footer from "@/component/Footer";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +34,7 @@ export default function RootLayout({ children }) {
         
         {children}
         
+        <Footer/>
         
         </body>
     </html>
