@@ -1,6 +1,7 @@
 import React from 'react';
 import { Star } from 'lucide-react';
 import { Chip } from '@heroui/react';
+import Link from 'next/link';
 
 const CourseCard = ({ course }) => {
     return (
@@ -34,9 +35,9 @@ const CourseCard = ({ course }) => {
             </div>
 
             <div className="flex items-center justify-between">
-                <button className="px-5 py-2 rounded-xl bg-white/5 border border-white/10 text-blue-400 hover:bg-blue-600 hover:text-white transition-all text-xs font-bold">
+                <Link href={`/all-courses/${course.id}`}><button className="px-5 py-2 rounded-xl bg-white/5 border border-white/10 text-blue-400 hover:bg-blue-600 hover:text-white transition-all text-xs font-bold">
                     Learn More
-                </button>
+                </button></Link>
                 <span className="text-xl font-bold text-white">${course.price}</span>
             </div>
         </div>
