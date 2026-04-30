@@ -1,6 +1,7 @@
 import Hero from "@/component/Hero";
 import LearningTips from "@/component/LearningTips";
 import PopularCourse from "@/component/PopularCourse";
+import TopInstructors from "@/component/TopInstructors";
 import TrendingCourse from "@/component/TrendingCourse";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <PopularCourse />
       <TrendingCourse/>
       <LearningTips/>
+      <TopInstructors/>
       
     </>
   );
