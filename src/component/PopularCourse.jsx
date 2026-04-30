@@ -12,7 +12,7 @@ const PopularCourse = () => {
       const res = await fetch("/courses.json");
       const data = await res.json();
 
-      
+
       const sorted = data.sort((a, b) => b.rating - a.rating).slice(0, 3);
       setPopular(sorted);
       setLoading(false);
@@ -26,7 +26,7 @@ const PopularCourse = () => {
         <div className="flex justify-between items-end mb-10">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-white">Popular Courses</h2>
-            <p className="text-gray-500 mt-5 text-2xl">Our top-rated courses by students</p>
+            <p className="text-gray-500 mt-5 md:text-2xl">Our top-rated courses by students</p>
           </div>
           <Link href="/all-courses" className="text-gray-400 hover:text-white transition-colors text-sm">
             View All

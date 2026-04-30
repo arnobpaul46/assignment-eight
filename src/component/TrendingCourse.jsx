@@ -27,7 +27,7 @@ const TrendingCourse = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-white flex items-center gap-2">
               Trending Now <span className="text-2xl">🔥</span>
             </h2>
-            <p className="text-gray-500 mt-5 text-2xl">Most picked premium courses this week</p>
+            <p className="text-gray-500 mt-5 md:text-2xl">Most picked premium courses this week</p>
           </div>
           <Link href="/all-courses" className="text-gray-400 hover:text-white transition-colors text-sm">
             View All
