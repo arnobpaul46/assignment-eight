@@ -31,7 +31,7 @@ const AllCoursesPage = () => {
 
 
                 <div className="flex flex-col md:flex-row justify-between items-center mb-16 gap-6 w-full">
-                    <h1 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight">
+                    <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight">
                         Explore All <br className="hidden md:block" /> Courses
                     </h1>
 

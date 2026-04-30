@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "Data Science Fundamentals",
-    "instructor": "Dr. Anya Sharma",
-    "instructor_img": "https://i.pravatar.cc/150?u=anya",
+    "instructor": "Dr. Anika Rahman",
+    "instructor_img": "https://static.vecteezy.com/system/resources/previews/048/002/356/small_2x/confident-bangladeshi-businesswoman-in-professional-attire-suitable-for-corporate-use-marketing-and-diverse-workplace-representation-photo.jpg",
     "rating": 4.9,
     "price": 99,
     "image": "https://img.freepik.com/free-vector/data-science-concept-illustration_114360-5203.jpg",
@@ -12,8 +12,8 @@
   {
     "id": 2,
     "title": "Full-Stack Web Development",
-    "instructor": "Mark Chen",
-    "instructor_img": "https://i.pravatar.cc/150?u=mark",
+    "instructor": "Rahul Verma",
+    "instructor_img": "https://static.vecteezy.com/system/resources/previews/045/784/998/non_2x/pakistani-male-developer-at-work-photo.jpg",
     "rating": 4.8,
     "price": 129,
     "image": "https://img.freepik.com/free-vector/full-stack-developer-concept-illustration_114360-1590.jpg",
@@ -22,8 +22,8 @@
   {
     "id": 3,
     "title": "Digital Marketing Strategy",
-    "instructor": "Sarah Lee",
-    "instructor_img": "https://i.pravatar.cc/150?u=sarah",
+    "instructor": "Priya Das",
+    "instructor_img": "https://thumbs.dreamstime.com/b/young-indian-professional-business-woman-looking-camera-office-women-confident-businesswoman-coach-female-corporate-140989099.jpg",
     "rating": 4.7,
     "price": 89,
     "image": "https://img.freepik.com/free-vector/digital-marketing-concept-illustration_114360-527.jpg",
@@ -32,11 +32,121 @@
   {
     "id": 4,
     "title": "UI/UX Design Masterclass",
-    "instructor": "Alex Rivera",
-    "instructor_img": "https://i.pravatar.cc/150?u=alex",
+    "instructor": "Arif Hossain",
+    "instructor_img": "https://static.vecteezy.com/system/resources/previews/048/766/189/large_2x/confident-bangladeshi-male-school-teacher-posing-in-classroom-education-diversity-teaching-concept-photo.jpg",
     "rating": 4.6,
     "price": 79,
     "image": "https://img.freepik.com/free-vector/ui-ux-design-concept-illustration_114360-3135.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 5,
+    "title": "Python Programming for Beginners",
+    "instructor": "Tanvir Ahmed",
+    "instructor_img": "https://static.vecteezy.com/system/resources/previews/048/766/250/large_2x/confident-young-male-bangladeshi-school-teacher-smiling-in-classroom-education-diversity-professionalism-photo.jpg",
+    "rating": 4.8,
+    "price": 69,
+    "image": "https://img.freepik.com/free-vector/python-programming-concept-illustration_114360-1422.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 6,
+    "title": "Machine Learning with Python",
+    "instructor": "Dr. Ritu Sharma",
+    "instructor_img": "https://static.vecteezy.com/system/resources/previews/062/290/059/non_2x/beautiful-indian-woman-programmer-web-developer-focused-and-confident-working-on-laptop-writing-code-programming-business-woman-worker-in-modern-office-working-in-casual-clothes-photo.jpg",
+    "rating": 4.9,
+    "price": 119,
+    "image": "https://img.freepik.com/free-vector/machine-learning-concept-illustration_114360-5166.jpg",
+    "category": "Data Science"
+  },
+  {
+    "id": 7,
+    "title": "Social Media Marketing",
+    "instructor": "Nadia Islam",
+    "instructor_img": "https://img.freepik.com/premium-photo/warm-smiling-bangladeshi-female-school-teacher-classroom-setting-educational-cultural-representation_91645-13259.jpg",
+    "rating": 4.5,
+    "price": 59,
+    "image": "https://img.freepik.com/free-vector/social-media-marketing-concept-illustration_114360-1438.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 8,
+    "title": "Graphic Design Essentials",
+    "instructor": "Kabir Khan",
+    "instructor_img": "https://www.shutterstock.com/image-photo/smiling-young-professional-standing-arms-260nw-2511773757.jpg",
+    "rating": 4.7,
+    "price": 79,
+    "image": "https://img.freepik.com/free-vector/graphic-designer-concept-illustration_114360-4745.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 9,
+    "title": "React & Next.js Bootcamp",
+    "instructor": "Suman Chakraborty",
+    "instructor_img": "https://www.shutterstock.com/image-photo/professional-business-man-company-employee-260nw-2395784457.jpg",
+    "rating": 4.8,
+    "price": 139,
+    "image": "https://img.freepik.com/free-vector/react-concept-illustration_114360-1325.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 10,
+    "title": "Business Analytics with Excel",
+    "instructor": "Fariha Akter",
+    "instructor_img": "https://www.executivewomanmedia.com/wp-content/uploads/2023/10/46.CeoWoman_Slider.jpg",
+    "rating": 4.6,
+    "price": 49,
+    "image": "https://img.freepik.com/free-vector/business-analytics-concept-illustration_114360-1393.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 11,
+    "title": "SEO & Content Marketing",
+    "instructor": "Imran Hossain",
+    "instructor_img": "https://asrafuddin.com/wp-content/uploads/2024/11/Top-Digital-Marketing-Expert-in-Bangladesh.jpg",
+    "rating": 4.7,
+    "price": 69,
+    "image": "https://img.freepik.com/free-vector/seo-concept-illustration_114360-5766.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 12,
+    "title": "Mobile App Development",
+    "instructor": "Dev Patel",
+    "instructor_img": "https://thumbs.dreamstime.com/b/portrait-young-indian-male-teacher-headset-sitting-office-front-camera-teaching-talking-online-290833072.jpg",
+    "rating": 4.8,
+    "price": 149,
+    "image": "https://img.freepik.com/free-vector/mobile-app-development-concept-illustration_114360-1355.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 13,
+    "title": "Cloud Computing with AWS",
+    "instructor": "Dr. Sabbir Hossain",
+    "instructor_img": "https://static.vecteezy.com/system/resources/previews/048/766/189/large_2x/confident-bangladeshi-male-school-teacher-posing-in-classroom-education-diversity-teaching-concept-photo.jpg",
+    "rating": 4.9,
+    "price": 159,
+    "image": "https://img.freepik.com/free-vector/cloud-computing-concept-illustration_114360-1273.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 14,
+    "title": "Financial Analysis & Modeling",
+    "instructor": "Rina Saha",
+    "instructor_img": "https://static.vecteezy.com/system/resources/previews/045/785/130/non_2x/indian-female-software-developer-at-work-photo.jpg",
+    "rating": 4.7,
+    "price": 109,
+    "image": "https://img.freepik.com/free-vector/financial-analysis-concept-illustration_114360-1389.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 15,
+    "title": "Photography & Video Editing",
+    "instructor": "Ayan Banerjee",
+    "instructor_img": "https://static.vecteezy.com/system/resources/thumbnails/045/783/662/small/confident-business-professional-in-suit-standing-by-office-window-emphasizing-diversity-and-modern-workplace-photo.jpg",
+    "rating": 4.6,
+    "price": 89,
+    "image": "https://img.freepik.com/free-vector/photography-concept-illustration_114360-1103.jpg",
     "category": "Design"
   }
 ]
