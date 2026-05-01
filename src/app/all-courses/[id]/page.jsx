@@ -141,7 +141,7 @@ const CourseDetails = () => {
                             {isEnrolled ? (
                                 <div> <i className="ri-checkbox-circle-line"></i> Already Enrolled </div>
                             ) : (
-                                <div> Enroll in Course Now <i className="ri-arrow-right-line"></i> </div>
+                                <div> Enroll in Course Now for free <i className="ri-arrow-right-line"></i> </div>
                             )}
                         </button>
                     </div>
