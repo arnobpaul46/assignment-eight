@@ -1,31 +1,61 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import Link from "next/link";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css'; 
 
 const CourseDetails = () => {
     const { id } = useParams();
     const router = useRouter();
     const [course, setCourse] = useState(null);
-    const [loading, setLoading] = useState(true);
+    const [isEnrolled, setIsEnrolled] = useState(false);
+
+    
+    const STORAGE_KEY = "my_courses";
 
     useEffect(() => {
-        const fetchDetail = async () => {
-            const res = await fetch("/courses.json");
-            const data = await res.json();
-            // আইডি অনুযায়ী কোর্সটি খুঁজে বের করা
-            const singleCourse = data.find((item) => item.id === parseInt(id));
-            setCourse(singleCourse);
-            setLoading(false);
-        };
-        fetchDetail();
+        fetch("/courses.json")
+            .then(res => res.json())
+            .then(data => {
+                const found = data.find(c => c.id === parseInt(id));
+                setCourse(found);
+
+                
+                const enrolled = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+                setIsEnrolled(enrolled.some(c => c.id === parseInt(id)));
+            });
     }, [id]);
 
-    if (loading) return (
-        <div className="min-h-screen bg-[#020617] flex items-center justify-center">
-            <span className="loading loading-spinner loading-lg text-blue-500"></span>
-        </div>
-    );
+    const handleEnroll = () => {
+        if (!course) return;
+
+        
+        const enrolled = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+
+        
+        if (!enrolled.some(c => c.id === course.id)) {
+            const updatedList = [...enrolled, course];
+            
+            
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(updatedList));
+            
+            
+            setIsEnrolled(true);
+
+            
+            toast.success(`Enroll successful! "${course.title}" added to your courses`,{
+                position: "top-center",
+                theme: "dark",
+            });
+
+            
+            setTimeout(() => {
+                router.push("/my-courses");
+            }, 1000);
+        }
+    };
+
+    
 
     if (!course) return (
         <div className="min-h-screen bg-[#020617] flex flex-col items-center justify-center text-white">
@@ -38,16 +68,16 @@ const CourseDetails = () => {
         <div className="min-h-screen bg-[#020617] pt-32 pb-20 px-6">
             <div className="max-w-6xl mx-auto">
 
-                {/* Back Button */}
-                <button onClick={() => router.back()} className="flex items-center gap-2 text-gray-400 hover:text-white mb-8 transition-all">
+
+                <button onClick={() => router.push("/all-courses")} className="flex items-center gap-2 text-gray-400 hover:text-white mb-8 transition-all">
                     <i className="ri-arrow-left-line"></i> Back to Courses
                 </button>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
-                    {/* Left Side: Image and Basic Info */}
+
                     <div className="space-y-8">
-                        <div className="relative rounded-[32px] overflow-hidden border border-white/10 shadow-2xl h-85">
+                        <div className="relative rounded-[32px] overflow-hidden border border-white/10 shadow-2xl h-60 md:h-85 w-full">
                             <img
                                 src={course.image}
                                 alt={course.title}
@@ -78,7 +108,7 @@ const CourseDetails = () => {
                         </div>
                     </div>
 
-                    {/* Right Side: Title and Instructor */}
+
                     <div className="space-y-5">
                         <h1 className="text-3xl md:text-5xl font-extrabold text-white leading-tight">
                             {course.title}
@@ -90,7 +120,7 @@ const CourseDetails = () => {
                             foundational concepts to advanced real-world applications.
                         </p>
 
-                        {/* Instructor Card */}
+
                         <div className="flex items-center gap-4 p-6 bg-white/5 rounded-3xl border border-white/10">
                             <img src={course.instructor_img} alt="" className="w-14 h-14 rounded-full border-2 border-blue-500 object-cover" />
                             <div>
@@ -99,9 +129,20 @@ const CourseDetails = () => {
                             </div>
                         </div>
 
-                        {/* Action Button */}
-                        <button className="w-full py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl font-bold text-xl shadow-xl hover:scale-[1.02] transition-all active:scale-95 flex items-center justify-center gap-3">
-                            Enroll in Course Now <i className="ri-arrow-right-line "></i>
+
+                        <button
+                            onClick={handleEnroll}
+                            disabled={isEnrolled}
+                            className={`w-full py-5 rounded-2xl font-bold text-xl shadow-xl transition-all flex items-center justify-center gap-3 ${isEnrolled
+                                    ? "bg-gray-700 text-gray-400 cursor-not-allowed"
+                                    : "bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:scale-[1.02]"
+                                }`}
+                        >
+                            {isEnrolled ? (
+                                <div> <i className="ri-checkbox-circle-line"></i> Already Enrolled </div>
+                            ) : (
+                                <div> Enroll in Course Now <i className="ri-arrow-right-line"></i> </div>
+                            )}
                         </button>
                     </div>
 
