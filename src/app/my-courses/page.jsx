@@ -83,20 +83,20 @@ const MyCourses = () => {
 
                   <Link
                     href={`/all-courses/${course.id}`}
-                    className="p-3 bg-blue-500/10 text-blue-500 rounded-xl hover:bg-blue-500 hover:text-white transition-all shadow-lg"
+                    className=" p-1 md:p-3 bg-blue-500/10 text-blue-500 rounded-xl hover:bg-blue-500 hover:text-white transition-all shadow-lg"
                     title="View Course"
                   >
-                    <i className="ri-play-circle-line text-2xl"></i>
+                    <i className="ri-play-circle-line text-sm md:text-2xl"></i>
                   </Link>
 
 
 
                   <button
                     onClick={() => handleAnimatedRemove(course.id, course.title)}
-                    className="p-3 bg-red-500/10 text-red-500 rounded-xl hover:bg-red-500 hover:text-white transition-all shadow-lg"
+                    className="p-1 md:p-3 bg-red-500/10 text-red-500 rounded-xl hover:bg-red-500 hover:text-white transition-all shadow-lg"
                     title="Remove Course"
                   >
-                    <i className="ri-delete-bin-6-line text-2xl"></i>
+                    <i className="ri-delete-bin-6-line text-sm md:text-2xl"></i>
                   </button>
                 </div>
               </div>
