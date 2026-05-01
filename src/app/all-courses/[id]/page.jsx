@@ -69,7 +69,7 @@ const CourseDetails = () => {
             <div className="max-w-6xl mx-auto">
 
 
-                <button onClick={() => router.push("/all-courses")} className="flex items-center gap-2 text-gray-400 hover:text-white mb-8 transition-all">
+                <button onClick={() => router.back()} className="flex items-center gap-2 text-gray-400 hover:text-white mb-8 transition-all">
                     <i className="ri-arrow-left-line"></i> Back to Courses
                 </button>
 
