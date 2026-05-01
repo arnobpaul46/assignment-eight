@@ -66,16 +66,16 @@ const MyCourses = () => {
             enrolledCourses.map((course) => (
               <div
                 key={course.id}
-                className={`bg-white/5 border border-white/10 p-4 rounded-2xl flex items-center justify-between group hover:bg-white/10 transition-all animate__animated ${removingId === course.id
+                className={`bg-white/5 border border-white/10 p-4 rounded-2xl flex items-center justify-between   group hover:bg-white/10 transition-all animate__animated ${removingId === course.id
                     ? "animate__fadeOutRight"
                     : "animate__fadeInUp"
                   }`}
               >
-                <div className="flex items-center gap-6 ">
-                  <img src={course.image} className="w-24 h-16 object-cover rounded-xl" alt="" />
+                <div className="flex items-center gap-4 ">
+                  <img src={course.image} className="w-20 h-11 md:w-24 md:h-16 object-cover rounded-xl" alt="" />
                   <div>
-                    <h3 className="text-white font-bold text-lg leading-tight">{course.title}</h3>
-                    <p className="text-gray-500 text-sm">{course.instructor}</p>
+                    <h3 className="text-white font-bold text-sm md:text-lg leading-tight">{course.title}</h3>
+                    <p className="text-gray-500 text-[10px]">{course.instructor}</p>
                   </div>
                 </div>
 
