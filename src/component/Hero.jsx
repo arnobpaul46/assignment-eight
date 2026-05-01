@@ -28,7 +28,7 @@ const Hero = () => {
           <div>
             <Chip color="success" size="md" variant="soft" className="animate__animated animate__pulse animate__infinite">
               <BadgeInfo width={20} />
-              <Chip.Label className="pl-1">Enjoy free access to all courses. View details now.</Chip.Label>
+              <Chip.Label className=" md:pl-1 ">Enjoy free access to all courses. View details now.</Chip.Label>
 
             </Chip>
           </div>
