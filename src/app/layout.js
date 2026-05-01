@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import 'remixicon/fonts/remixicon.css' 
+import 'animate.css';
 import "./globals.css";
 import AppNavbar from "@/component/Navbar";
 
