@@ -30,17 +30,13 @@ const LoginPage = () => {
 
 
   const googleLogin =async ()=>{
-    await authClient.signIn.social({
+     const { data, error } =await authClient.signIn.social({
     provider: "google",
   });
-  if (!error) {
-      toast.success("Login successful");
-
-    } else {
-
-      toast.error(error.message);
+   if (error) {
+        toast.error(error.message);
     }
-  }
+}
 
 
   return (
