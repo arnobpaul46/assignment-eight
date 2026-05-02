@@ -6,7 +6,7 @@ import { Button } from "@heroui/react";
 
 const LoginPage = () => {
   return (
-    <div className="min-h-screen bg-[#020617] pt-30 pb-18  flex items-center justify-center  relative overflow-hidden">
+    <div className="min-h-screen bg-[#020617] pt-15  md:pt-30 pb-18 px-5  flex items-center justify-center  relative overflow-hidden">
 
       <div className="absolute top-[-5%] right-[-5%] w-72 h-72 bg-blue-600/20 blur-[100px] rounded-full"></div>
       <div className="absolute bottom-[-5%] left-[-5%] w-72 h-72 bg-purple-600/20 blur-[100px] rounded-full"></div>
@@ -22,7 +22,7 @@ const LoginPage = () => {
             <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">S</div>
             <span className="text-xl font-bold text-white">SkillSphere</span>
           </div>
-          <h2 className="text-2xl font-bold text-white ">Welcome Back</h2>
+          <h2 className="text-3xl font-bold text-white ">Welcome Back</h2>
           <p className="text-gray-500 text-xs tracking-wide">Enter your details to continue</p>
         </div>
 

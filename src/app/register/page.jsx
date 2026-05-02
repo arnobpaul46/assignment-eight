@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const RegisterPage = () => {
   return (
-    <div className="min-h-screen bg-[#020617] pt-28 pb-18 flex items-center justify-center  relative overflow-hidden">
+    <div className="min-h-screen bg-[#020617]  md:pt-28 md:pb-18 px-4 flex items-center justify-center  relative overflow-hidden">
       
 
 
@@ -18,7 +18,7 @@ const RegisterPage = () => {
             <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">S</div>
             <span className="text-xl font-bold text-white">SkillSphere</span>
           </div>
-          <h2 className="text-xl font-bold text-white">Create Account</h2>
+          <h2 className="text-2xl font-bold text-white">Create Account</h2>
           <p className="text-gray-500 text-xs tracking-wide">Start your learning journey today</p>
         </div>
 
