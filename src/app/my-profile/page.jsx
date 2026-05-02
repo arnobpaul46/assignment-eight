@@ -28,7 +28,10 @@ const MyProfile = () => {
         name,
         image,
       });
-      toast.success("Profile updated successfully!");
+      toast.success("Profile updated successfully!", {
+      theme: "dark",
+      position: "top-center",
+    });
       window.location.reload(); 
     } catch (error) {
       toast.error("Failed to update profile");

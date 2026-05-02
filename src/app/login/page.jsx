@@ -20,7 +20,10 @@ const LoginPage = () => {
       callbackURL: "/"
     });
     if (!error) {
-      toast.success("Login successful");
+      toast.success("Login successful",{
+      theme: "dark",
+      position: "top-center",
+    });
 
     } else {
 

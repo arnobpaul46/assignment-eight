@@ -27,7 +27,10 @@ const RegisterPage = () => {
     console.log({data, error});
 
     if (!error) {
-      toast.success("Registration successful! Please login");
+      toast.success("Registration successful! Please login",{
+      theme: "dark",
+      position: "top-center",
+    });
       router.push('/login'); 
     } else {
       
