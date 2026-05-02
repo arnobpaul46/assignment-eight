@@ -27,7 +27,10 @@ const Navbar = () => {
     await authClient.signOut({
         fetchOptions: {
             onSuccess: () => {
-                toast.success("Logged out successfully");
+                toast.success("Logged out successfully",{
+                  position:"top-center",
+                  theme:"dark",
+                });
                 router.push("/login"); 
             }
         }
@@ -83,12 +86,14 @@ const Navbar = () => {
             </div>
           ) : (
             <div className="flex items-center gap-3">
+              <Link href='/my-profile'>
               <Avatar  
                 color="primary" 
                 className="w-8 h-8 cursor-pointer">
                   <AvatarImage src={user.image} referrerPolicy="no-referrer"/>
                   <AvatarFallback className="bg-gray-800 text-2xl ">{user.name.charAt(0)}</AvatarFallback>
                 </Avatar>
+              </Link>
               <button 
                 onClick={handleLogout}
                 className="hidden sm:flex items-center gap-2 bg-white/5 hover:bg-red-500/20 text-red-400 border border-red-500/20 px-3 py-1.5 rounded-lg text-xs font-bold transition-all"

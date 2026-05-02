@@ -18,7 +18,7 @@ const Hero = () => {
 
       <div className="max-w-6xl mx-auto w-full px-6 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
 
-        {/* left section or title section */}
+       
 
 
 
@@ -51,7 +51,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* right side or img section */}
+  
         <div className="relative flex justify-center lg:justify-end order-1 lg:order-2">
           <div className="relative w-full max-w-[500px] lg:max-w-[550px]">
 
