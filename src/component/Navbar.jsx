@@ -13,8 +13,8 @@ const Navbar = () => {
   const router = useRouter();
 
   
-  const { data: session } = authClient.useSession();
-  const user = session?.user;
+  const userData = authClient.useSession();
+  const user = userData.data?.user;
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -70,7 +70,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Auth Buttons / Profile */}
+        
         <div className="flex items-center gap-4">
           {!user ? (
             <div className="hidden sm:flex items-center gap-4">
@@ -87,7 +87,7 @@ const Navbar = () => {
                 color="primary" 
                 className="w-8 h-8 cursor-pointer">
                   <AvatarImage src={user.image} referrerPolicy="no-referrer"/>
-                  <AvatarFallback>{user.name.charAt(0)}</AvatarFallback>
+                  <AvatarFallback className="bg-gray-800 text-2xl ">{user.name.charAt(0)}</AvatarFallback>
                 </Avatar>
               <button 
                 onClick={handleLogout}
