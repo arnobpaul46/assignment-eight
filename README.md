@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 SkillSphere – Modern Online Learning Platform
 
-## Getting Started
+**SkillSphere** is a premium online learning platform designed to empower learners worldwide. Users can explore a wide range of skill-based courses, search for their interests, manage their enrolled courses, and update their professional profiles. Built with a sleek dark glassmorphism theme, it offers a seamless and interactive user experience.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
+- **Framework:** [Next.js (App Router)](https://nextjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components:** [HeroUI](https://heroui.com/) & [DaisyUI](https://daisyui.com/)
+- **Authentication:** [Better Auth](https://better-auth.com/) (Email/Password & Google Login)
+- **Database:** [MongoDB](https://www.mongodb.com/)
+- **Icons:** [Remix Icon](https://remixicon.com/) & [Lucide React](https://lucide.dev/)
+- **Animations:** [Animate.css](https://animate.style/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔐 Secure Authentication
+- Fully functional **Login** and **Registration** system.
+- **Social Login:** One-click authentication with Google.
+- **Protected Routes:** Course details and profile sections are only accessible to logged-in users.
 
-## Learn More
+### 📚 Course Management
+- **Dynamic Home Page:** Showcases Top 3 Highest-rated (Popular) and Premium (Trending) courses.
+- **All Courses Page:** A dedicated space to browse all 15+ available courses.
+- **Search Functionality:** Real-time search to filter courses by title or category.
+- **My Learning Path:** A private dashboard for users to track and remove their enrolled courses.
 
-To learn more about Next.js, take a look at the following resources:
+### 👤 Profile Customization
+- Dedicated **My Profile** page displaying user information.
+- **Update Feature:** Users can update their Name and Profile Image URL via a modern glassmorphism modal.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🎨 Premium UI/UX
+- **Unique Design:** Modern dark-themed glassmorphism UI.
+- **Responsiveness:** Fully optimized for Mobile, Tablet, and Desktop screens.
+- **Interactive Elements:** Uses loaders for data fetching and Toast notifications for user feedback.
+- **404 Page:** Custom-designed "Not Found" page for better navigation.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Packages Used
+- `better-auth`: For secure session-based authentication.
+- `mongodb`: Database to store user credentials.
+- `react-toastify`: To show beautiful success/error notifications.
+- `remixicon`: High-quality linear icons for the entire site.
+- `animate.css`: For smooth scroll and entrance animations.
+- `lucide-react`: For secondary UI icons.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
