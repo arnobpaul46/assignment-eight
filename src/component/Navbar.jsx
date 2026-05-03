@@ -91,7 +91,7 @@ const Navbar = () => {
                 color="primary" 
                 className="w-8 h-8 cursor-pointer">
                   <AvatarImage src={user.image} referrerPolicy="no-referrer"/>
-                  <AvatarFallback className="bg-gray-800 text-2xl ">{user.name.charAt(0)}</AvatarFallback>
+                  <AvatarFallback className="bg-gray-800 text-2xl pb-1.5 ">{user.name.charAt(0).toLowerCase()}</AvatarFallback>
                 </Avatar>
               </Link>
               <button 

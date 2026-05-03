@@ -43,8 +43,8 @@ const MyCourses = () => {
             <h1 className="text-2xl md:text-4xl font-bold text-white mb-1">My Learning Path</h1>
             <p className="text-gray-500 text-sm">Manage your enrolled courses</p>
           </div>
-          <div className="text-right">
-            <span className="text-4xl p-2 md:p-1 md:text-6xl font-black text-blue-500">{enrolledCourses.length}</span>
+          <div className="flex flex-col items-center justify-center">
+            <span className="text-4xl  md:text-6xl font-black text-blue-500">{enrolledCourses.length}</span>
             <p className="text-gray-500 text-[10px] uppercase font-bold tracking-tighter">Total</p>
           </div>
         </div>

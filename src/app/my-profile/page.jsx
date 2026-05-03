@@ -51,8 +51,8 @@ const MyProfile = () => {
               <div className="absolute inset-0 bg-blue-500/30 rounded-full blur-2xl animate-pulse"></div>
               <Avatar color="primary" className="w-24 h-24 cursor-pointer text-2xl font-bold">
                 <AvatarImage src={user?.image} referrerPolicy="no-referrer" />
-                <AvatarFallback className="text-6xl bg-gray-800 text-blue-400">
-                  {user?.name?.charAt(0)}
+                <AvatarFallback className="text-6xl bg-gray-800 text-blue-400 pb-2">
+                  {user?.name?.charAt(0).toUpperCase()}
                 </AvatarFallback>
               </Avatar>
             </div>
