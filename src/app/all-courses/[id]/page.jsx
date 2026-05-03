@@ -133,7 +133,7 @@ const CourseDetails = () => {
                         <button
                             onClick={handleEnroll}
                             disabled={isEnrolled}
-                            className={`w-full py-5 rounded-2xl font-bold text-xl shadow-xl transition-all flex items-center justify-center gap-3 ${isEnrolled
+                            className={`w-full py-5 rounded-2xl font-bold text-xl shadow-xl transition-all flex items-center justify-center gap-3 hover:cursor-pointer ${isEnrolled
                                     ? "bg-gray-700 text-gray-400 cursor-not-allowed"
                                     : "bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:scale-[1.02]"
                                 }`}
@@ -141,7 +141,7 @@ const CourseDetails = () => {
                             {isEnrolled ? (
                                 <div> <i className="ri-checkbox-circle-line"></i> Already Enrolled </div>
                             ) : (
-                                <div> Enroll in Course Now for free <i className="ri-arrow-right-line"></i> </div>
+                                <div > Enroll in Course Now for free <i className="ri-arrow-right-line"></i> </div>
                             )}
                         </button>
                     </div>

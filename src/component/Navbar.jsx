@@ -96,7 +96,7 @@ const Navbar = () => {
               </Link>
               <button 
                 onClick={handleLogout}
-                className="hidden sm:flex items-center gap-2 bg-white/5 hover:bg-red-500/20 text-red-400 border border-red-500/20 px-3 py-1.5 rounded-lg text-xs font-bold transition-all"
+                className="hidden sm:flex items-center gap-2 bg-white/5 hover:bg-red-500/20 text-red-400 border border-red-500/20 px-3 py-1.5 rounded-lg text-xs font-bold transition-all hover:cursor-pointer"
               >
                 <LogOut size={14} /> Log out
               </button>
@@ -104,7 +104,7 @@ const Navbar = () => {
           )}
 
           {/* Mobile Menu Button */}
-          <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden text-white p-1">
+          <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden text-white p-1 hover:cursor-pointer">
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
@@ -138,7 +138,7 @@ const Navbar = () => {
                     <Link href="/register" onClick={() => setIsOpen(false)} className="w-full text-center py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl">Register</Link>
                   </>
                 ) : (
-                  <button onClick={handleLogout} className="w-full py-3 bg-red-500/20 text-red-400 rounded-xl font-bold">Logout</button>
+                  <button onClick={handleLogout} className="w-full py-3 bg-red-500/20 text-red-400 rounded-xl font-bold hover:cursor-pointer">Logout</button>
                 )}
               </div>
             </div>

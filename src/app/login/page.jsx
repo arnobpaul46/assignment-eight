@@ -103,7 +103,7 @@ const LoginPage = () => {
           </div>
 
 
-          <button className="w-full py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-xl shadow-[0_10px_20px_-10px_rgba(37,99,235,0.5)] hover:opacity-90 active:scale-[0.98] transition-all text-sm mt-2">
+          <button className="w-full py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-xl shadow-[0_10px_20px_-10px_rgba(37,99,235,0.5)] hover:opacity-90 active:scale-[0.98] transition-all text-sm mt-2 hover:cursor-pointer">
             Login In
           </button>
 

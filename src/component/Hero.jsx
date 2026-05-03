@@ -45,7 +45,7 @@ const Hero = () => {
           </p>
 
           <div className="mt-4">
-            <Link href="/all-courses"><button className="px-8 py-4 text-white font-bold text-lg rounded-2xl bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:scale-105 hover:shadow-[0_15px-40px_rgba(59,130,246,0.5)] transition-all duration-300 active:scale-95">
+            <Link href="/all-courses"><button className="px-8 py-4 text-white font-bold text-lg rounded-2xl bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:scale-105 hover:shadow-[0_15px-40px_rgba(59,130,246,0.5)] transition-all duration-300 active:scale-95 hover:cursor-pointer">
               Explore Courses
             </button></Link>
           </div>

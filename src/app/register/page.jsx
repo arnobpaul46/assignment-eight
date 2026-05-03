@@ -31,7 +31,7 @@ const RegisterPage = () => {
       theme: "dark",
       position: "top-center",
     });
-      router.push('/login'); 
+      router.push('/'); 
     } else {
       
       toast.error(error.message );
@@ -91,7 +91,7 @@ const RegisterPage = () => {
             </div>
           </div>
 
-          <button type="submit" className="w-full py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-xl shadow-lg hover:opacity-90 active:scale-[0.98] transition-all text-sm mt-2">
+          <button type="submit" className="w-full py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-xl shadow-lg hover:opacity-90 active:scale-[0.98] transition-all text-sm mt-2 hover:cursor-pointer">
             Create Account
           </button>
         </form>
