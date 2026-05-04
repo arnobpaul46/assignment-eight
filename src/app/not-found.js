@@ -17,7 +17,7 @@ return ( <div className="min-h-screen bg-[#020617] flex items-center justify-cen
     
     
     <div className="relative inline-block mb-8">
-      <h1 className="text-[120px] md:text-[180px] font-black text-red-700/5 leading-none select-none italic animate-pulse">
+      <h1 className="text-[120px] md:text-[180px] font-black text-red-700 leading-none select-none italic animate-pulse">
         404
       </h1>
      
